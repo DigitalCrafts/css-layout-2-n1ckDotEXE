@@ -2,4 +2,27 @@
 
 .chess_board {
     display: flex;
+    flex-direction: right;
+    flex-wrap: no-wrap;
+    border: 1px solid black;
+    justify-content: center;
+    margin: auto;
+}
+
+.square_dark {
+    background-color: rgb(255, 0, 0);
+    border: 1px solid black;
+    width: auto;
+    min-width: 100px;
+    height: auto;
+    min-height: 100px;
+}
+
+.square_light {
+    background-color: rgb(0, 0, 255);
+    border: 1px solid black;
+    width: auto;
+    min-width: 100px;
+    height: auto;
+    min-height: 100px;
 }
